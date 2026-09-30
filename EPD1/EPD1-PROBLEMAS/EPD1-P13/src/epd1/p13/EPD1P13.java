@@ -36,6 +36,7 @@ public class EPD1P13 {
         // 4. Invocamos el metodo y comprobamos los resultados
         eliminarCandidato(lista);
         System.out.println("Candidatos que pasan el corte");
+        // Bucle for-each para mostrar los que quedan
         for(ICandidatos p : lista){
             System.out.println(p.getNombre());
         }
