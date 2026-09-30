@@ -15,7 +15,7 @@ public class ColeccionEnteros implements IColeccionEnteros {
     private Collection<Integer> coleccion;
 
     public ColeccionEnteros() {
-        this.coleccion = new ArrayList<Integer>();
+        this.coleccion = new ArrayList<>();
     }
 
     @Override
