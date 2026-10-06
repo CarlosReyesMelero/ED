@@ -47,7 +47,6 @@ public class Diccionario implements IDiccionario{
         while(it.hasNext()){
             Entrada e = it.next();
             if(e.getPalabra().equalsIgnoreCase(palabraABuscar)){
-                it.remove();
                 return e.getDefinicion();
             }
         }

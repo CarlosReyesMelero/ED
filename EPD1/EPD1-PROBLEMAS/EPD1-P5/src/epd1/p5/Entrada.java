@@ -48,6 +48,7 @@ public class Entrada implements IEntrada{
         return hash;
     }
 
+    
     @Override
     public boolean equals(Object obj) {
         if (this == obj) {
@@ -60,10 +61,7 @@ public class Entrada implements IEntrada{
             return false;
         }
         final Entrada other = (Entrada) obj;
-        if (!Objects.equals(this.palabra, other.palabra)) {
-            return false;
-        }
-        return Objects.equals(this.definicion, other.definicion);
+        return Objects.equals(this.palabra, other.palabra);
     }
 
     @Override
